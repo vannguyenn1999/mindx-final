@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduPress</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+        <img src="../asset/Header/LOGO.png" alt="Header logo" />
+      </div>
+      <nav class="header-nav">
+        <a id="header-nav_home" href="../index.html">Home</a>
+        <a href="./course-type1.html">Courses</a>
+        <a href="/python/">Blog</a>
+        <a href="/python/">Page</a>
+        <a href="../index.html">LearnPress Add-On</a>
+        <a href="./error-404.html">Premium Theme</a>
+      </nav>
+
+      <div class="header-login">
+        <img id="header-tag_bar" src="../asset/Header/Tag_bar.png" alt="" />
+        <button class="header-login_btn">Login / Register</button>
+        <img
+          src="../asset/Header/ninja-profile.png"
+          alt="avatar user"
+          id="avatar-user"
+        />
+        <img src="../asset/Header/Search.png" alt="" />
+      </div>
+    </header>
+    <main>
+      <div class="main-login__header">
+        <div class="main-login__header--content">
+          <p class="content-1">Homepage</p>
+          <p class="content-3">&gt;</p>
+          <p class="content-2">Login / Register</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="main-login__form">
+          <div class="main-login__form--login">
+            <div class="login-header">
+              <h2>Login</h2>
+            </div>
+            <form action="#" class="login-form">
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Email or usename*"
+              />
+
+              <div class="form-password">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Password*"
+                  autocomplete=""
+                />
+                <img
+                  onclick="changePass(1)"
+                  src="../asset/Login/Icon.png"
+                  alt=""
+                  id="show_pass_1"
+                />
+                <img
+                  onclick="changePass(1)"
+                  src="../asset/Login/hidden.png"
+                  alt=""
+                  id="hidden_pass_1"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="checkbox"
+                  name="remeber_password"
+                  id="remeber_password"
+                />
+                <label for="remeber_password">Remember me</label>
+              </div>
+              <button id="btn-login" type="button">Login</button>
+              <p>Lost your password?</p>
+            </form>
+          </div>
+          <div class="main-login__form--register">
+            <div class="login-header">
+              <h2>Register</h2>
+            </div>
+            <form action="#" class="login-register">
+              <input
+                type="text"
+                name="email"
+                id="register_email"
+                placeholder="Email*"
+              />
+              <input
+                type="text"
+                name="username"
+                id="register_username"
+                placeholder="Usename*"
+              />
+
+              <div class="form-password">
+                <input
+                  type="password"
+                  name="password"
+                  id="register_password"
+                  placeholder="Password*"
+                  autocomplete=""
+                />
+                <img
+                  onclick="changePass(2)"
+                  src="../asset/Login/Icon.png"
+                  alt=""
+                  id="show_pass_2"
+                />
+                <img
+                  onclick="changePass(2)"
+                  src="../asset/Login/hidden.png"
+                  alt=""
+                  id="hidden_pass_2"
+                />
+              </div>
+
+              <div class="form-password">
+                <input
+                  type="password"
+                  name="confirm_password"
+                  id="confirm_password"
+                  placeholder="Confirm Password*"
+                  autocomplete=""
+                />
+                <img
+                  onclick="changePass(3)"
+                  src="../asset/Login/Icon.png"
+                  alt=""
+                  id="show_pass_3"
+                />
+                <img
+                  onclick="changePass(3)"
+                  src="../asset/Login/hidden.png"
+                  alt=""
+                  id="hidden_pass_3"
+                />
+              </div>
+
+              <button id="btn-register" type="button">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-top_col1">
+            <img src="../asset/Header/LOGO.png" alt="Logo" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="footer-top_col2">
+            <h4>GET HELP</h4>
+            <div class="footer-top_col2-content">
+              <ul>
+                <li>Contact Us</li>
+                <li>Latest Articles</li>
+                <li>FAQ</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-top_col3">
+            <h4>PROGRAMS</h4>
+            <ul>
+              <li>Art & Design</li>
+              <li>Business</li>
+              <li>IT & Software</li>
+              <li>Languages</li>
+              <li>Programming</li>
+            </ul>
+          </div>
+          <div class="footer-top_col4">
+            <h4>CONTACT US</h4>
+            <ul>
+              <li>
+                Address: 2321 New Design Str, Lorem Ipsum10 Hudson Yards, USA
+              </li>
+              <li>Tel: + (123) 2500-567-8988</li>
+              <li>Mail: supportlms@gmail.com</li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-center"></div>
+        <div class="footer-bottom">
+          <p>Copyright © 2024 LearnPress LMS | Powered by ThimPress</p>
+        </div>
+
+        <div class="footer-icon" id="btn-footer">
+          <img src="../asset/Footer/Footer-icon.png" alt="footer icon" />
+        </div>
+      </div>
+    </footer>
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/login.js"></script>
+  </body>
+</html>
