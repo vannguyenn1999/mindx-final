@@ -1,4 +1,5 @@
-const LOCAL_HREF = "http://127.0.0.1:5500/";
+// const LOCAL_HREF = "http://127.0.0.1:5500/";
+const LOCAL_HREF = "https://vannguyenn1999.github.io/mindx-final/";
 
 // ? Kiểm tra xem đã đăng nhập chưa , nếu rồi chuyển hướng trang sang trang index
 if (localStorage.getItem("login")) {
