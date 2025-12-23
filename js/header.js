@@ -3,7 +3,6 @@ const LOCAL_HREF_PATH = "https://vannguyenn1999.github.io/mindx-final/";
 
 const PATH = document.URL;
 
-console.log("PATH , PATH");
 const avatarUser = document.querySelector("#avatar-user");
 const divLogin = document.querySelector(".header-login_btn");
 const divHome = document.querySelector("#header-nav_home");
